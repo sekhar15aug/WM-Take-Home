@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "WMTakeHome"
+include ':app'
+include ':take-home-data'
+include ':take-home-ui'
+include ':take-home-domain'

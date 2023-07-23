@@ -1,0 +1,36 @@
+# WM Take Home
+
+## Description
+
+Android take home project - fetch counties list and display
+2. Do not use compose
+3. Do not use dagger
+4. Do not use Dependency injection
+
+## Getting Started
+
+Application has following modules
+1. app
+2. take-home-ui
+3. take-home-domain
+4. take-home-data
+
+Gradle version 7.2
+Compile sdk version: API 33 (android 13)
+Android studio version: Flamingo
+
+Used Retrofit network library
+Used Coroutines and StateFlow
+
+Added fragment tests (ListFragmentTest) in take-home-ui
+
+
+### Installing
+
+1. Included APK for testing
+
+2. Gradle tasks to install from command line,
+   Run these commands from the project root directory or android studio terminal
+
+./gradlew installDebug - run this command to install the app in connected device
+
